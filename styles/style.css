@@ -167,7 +167,7 @@ main {
 
 
 .mindset-title {
-    font-size: 52px;
+    font-size: 48px;
     padding: 40px 0 20px 60px;
     color: #FFF;
 }
@@ -181,6 +181,62 @@ main {
 
 footer {
     width: 100%;
-    height: 400px;
+    height: 480px;
     background-color: black;
+}
+
+.footer-container {
+    width: 75vw;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-future {
+    width: 600px;
+}
+
+.footer-future img {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.future-title {
+    font-size: 45px;
+    color: #FFF;
+}
+
+.future-describe {
+    font-size: 20px;
+    color: #FFF;
+}
+
+
+.footer-subscribe {
+    width: 600px;
+}
+
+.subscribe-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.footer-subscribe input {
+    width: 92%;
+    padding: 20px;
+    font-size: 20px;
+    margin: 40px 0 10px 0;
+    background-color: black;
+    border: 3px solid gray;
+    border-radius: 10px;
+
+}
+
+.footer-subscribe button {
+    margin-top: 10px;
+    background-color: #2CB5E1;
+    color: #FFF;
 }
