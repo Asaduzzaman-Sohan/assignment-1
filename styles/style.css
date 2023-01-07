@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    width: 75vw;
+    margin: auto;
+}
+
+/* header section styles */
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.header-section {
+    width: 75vw;
+    height: 95vh;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.header-container {
+    width: 600px;
+    height: 500px;
+    text-align: right;
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #FFF;
+
+}
+
+.header-description {
+    width: 600px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 30px;
+
+}
+
+
+.btn-primary {
+    margin-top: 40px;
+    cursor: pointer;
+    padding: 16px 32px;
+    border: 0;
+    border-radius: 5px;
+    color: #006FB7;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.btn-primary:hover {
+    background-color: #2CB5E1;
+    color: #FFF;
+}
+
+
+/* Failure styles */
+
+.main-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 60px;
+    gap: 70px;
+}
+
+.main-container img {
+    width: 650px;
+
+}
+
+
+.failures {
+    width: 400px;
+    margin-right: auto;
+}
+
+
+.failure-title {
+    font-size: 44px;
+    font-weight: 700;
+    padding: 15px 20px;
+
+}
+
+.failure-description,
+.failure-list li {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+
+.failure-list li {
+    list-style-image: url('../images/icons/tick.png');
+
+}
+
+
+/* plan styles */
+
+.plan-section {
+    margin: 70px 0;
+}
+
+.plan-section h2 {
+    font-size: 44px;
+    font-weight: 700;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.plan p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.plan img {
+    width: 100px;
+}
+
+
+/* positive mindset styles */
+
+.mindset {
+    height: 301px;
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-size: 100% 100%;
+    margin: 130px 0;
+    background-blend-mode: overlay;
+}
+
+
+.mindset-title {
+    font-size: 52px;
+    padding: 40px 0 20px 60px;
+    color: #FFF;
+}
+
+.mindset button {
+    margin: 10px 0 0 50px;
+}
+
+
+/* footer styles */
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
